@@ -1,0 +1,170 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "itemCard",
+          "items": [
+            {
+              "imageTitle": {
+                "title": "${title}",
+                "description": "${maximum_amt}"
+              },
+              "title": "",
+              "description": "",
+              "thumbnail": {
+                "imageUrl": "${imageUrl}",
+                "width": 800,
+                "height": 800
+              },
+              "itemList": [
+                {
+                  "title": "접수 종료일자",
+                  "description": "${enddate}"
+                },
+                {
+                  "title": "지원내용",
+                  "description": "${other_support_content}"
+                },
+                {
+                  "title": "가점사항",
+                  "description": "${additional_points}"
+                },
+                {
+                  "title": "조회수",
+                  "description": "${viewcount}"
+                },
+                {
+                  "title": "연락처",
+                  "description": "${prchCnadrNo}"
+                },
+                {
+                  "title": "협약기간",
+                  "description": "${agreement_start_date ~ agreement_end_date} or ${agreement_duration}"
+                },
+                {
+                  "title": "선정회사수",
+                  "description": "${selected_cnt}"
+                }
+              ],
+              "itemListAlignment": "right",
+              "buttons": [
+                {
+                  "label": "바로가기",
+                  "action": "webLink",
+                  "webLinkUrl": "${detailUrl}"
+                }
+              ],
+              "buttonLayout": "vertical"
+            },
+            {
+              "imageTitle": {
+                "title": "${title}",
+                "description": "${maximum_amt}"
+              },
+              "title": "",
+              "description": "",
+              "thumbnail": {
+                "imageUrl": "${imageUrl}",
+                "width": 800,
+                "height": 800
+              },
+              "itemList": [
+                {
+                  "title": "접수 종료일자",
+                  "description": "${enddate}"
+                },
+                {
+                  "title": "지원내용",
+                  "description": "${other_support_content}"
+                },
+                {
+                  "title": "가점사항",
+                  "description": "${additional_points}"
+                },
+                {
+                  "title": "조회수",
+                  "description": "${viewcount}"
+                },
+                {
+                  "title": "연락처",
+                  "description": "${prchCnadrNo}"
+                },
+                {
+                  "title": "협약기간",
+                  "description": "${agreement_start_date ~ agreement_end_date} or ${agreement_duration}"
+                },
+                {
+                  "title": "선정회사수",
+                  "description": "${selected_cnt}"
+                }
+              ],
+              "itemListAlignment": "right",
+              "buttons": [
+                {
+                  "label": "바로가기",
+                  "action": "webLink",
+                  "webLinkUrl": "${detailUrl}"
+                }
+              ],
+              "buttonLayout": "vertical"
+            },
+            {
+              "imageTitle": {
+                "title": "${title}",
+                "description": "${maximum_amt}"
+              },
+              "title": "",
+              "description": "",
+              "thumbnail": {
+                "imageUrl": "${imageUrl}",
+                "width": 800,
+                "height": 800
+              },
+              "itemList": [
+                {
+                  "title": "접수 종료일자",
+                  "description": "${enddate}"
+                },
+                {
+                  "title": "지원내용",
+                  "description": "${other_support_content}"
+                },
+                {
+                  "title": "가점사항",
+                  "description": "${additional_points}"
+                },
+                {
+                  "title": "조회수",
+                  "description": "${viewcount}"
+                },
+                {
+                  "title": "연락처",
+                  "description": "${prchCnadrNo}"
+                },
+                {
+                  "title": "협약기간",
+                  "description": "${agreement_start_date ~ agreement_end_date} or ${agreement_duration}"
+                },
+                {
+                  "title": "선정회사수",
+                  "description": "${selected_cnt}"
+                }
+              ],
+              "itemListAlignment": "right",
+              "buttons": [
+                {
+                  "label": "바로가기",
+                  "action": "webLink",
+                  "webLinkUrl": "${detailUrl}"
+                }
+              ],
+              "buttonLayout": "vertical"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
